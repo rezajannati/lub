@@ -1,0 +1,103 @@
+*{
+	font-family: sans-serif;
+
+}
+#wrapper{
+	width: 860px;
+	background-color: black;
+	padding-left: 30px;
+}
+/*header*/
+/*navigation bar*/
+nav{
+	background: linear-gradient(rgb(236,236,236),rgb(211,211,211));
+	border-top: 2px solid darkgray;
+	font-size: 9px;
+	padding: 10px;
+}
+	nav a{
+		/*margin-left: 20px;*/
+		padding: 4px 14px;
+		border-left: 2px solid darkgray;
+	}
+	nav a:first-child{
+		margin-left: 80px;
+	}
+/*main section*/
+#main{
+
+}
+/*main section picture left*/
+#snowpic{
+	/*height:400px ;
+	width: 400px ;*/
+}
+/*main section content right*/
+#mainRight{
+	display: inline-block;
+	margin: 10px 0px 0px 20px;
+	width: 500px;
+	font-size: 13px;
+	background-color: grey;
+	padding-top:-20px;
+}
+	
+h4{
+	background-color: yellow;
+	padding: 5px 100px 5px 5px;
+}
+#mainHeader{
+	padding: 5px 0px 0px 5px;
+	background-color: yellow;
+}	
+/*middle strip*/
+#strip{
+	color:yellow;
+}
+#strip img{
+	height:16px;
+	width:90px;
+
+}
+/*big box section*/
+
+#bigbox{
+	vertical-align: top;
+}
+.boxText{
+	padding:10px;
+	font-size: 10px;
+}
+.bH{
+	background-color: yellow;
+}
+#box1, #box2, #box3,#box4{
+	display: inline-block;
+	font-size: 13px;
+	height: 240px;
+	width:200px;
+	vertical-align: top;
+	background-color: white;
+	margin: 5px 4px;
+	
+}
+/*box buttons*/	
+#box1 button,#box2 button ,#box3 button, #box4 button{
+		background-color: yellow;
+		display: block;
+		margin-left: 105px;
+
+}
+	
+	#box1 button {		
+		margin-top: 14px;		
+	}
+	#box2 button{
+		margin-top: 25px; 		
+	}
+	#box3 button{
+		margin-top: 14px; 
+	}
+	#box4 button{
+		margin-top: 14px; 
+	}
